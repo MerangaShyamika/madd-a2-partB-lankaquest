@@ -73,4 +73,4 @@ LankaQuest's difference is age-adaptive fairness, Sri Lankan heritage content an
 ## Credits
 - SF Symbols by Apple.
 - The question content was written for this project. The facts are general knowledge and were checked against public sources.
-- AI assistance is documented in `AI_USAGE.md`.
+
