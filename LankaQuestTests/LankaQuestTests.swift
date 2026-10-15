@@ -321,7 +321,7 @@ final class GameEngineTests: XCTestCase {
 
     func testBundledQuestionsAreValid() {
         let bank = QuestionBank.fromBundle()
-        XCTAssertGreaterThanOrEqual(bank.questions.count, 45)
+        XCTAssertGreaterThanOrEqual(bank.questions.count, 55)
         for question in bank.questions {
             XCTAssertEqual(question.options.count, 4, "Question \(question.id) needs 4 options")
             XCTAssertTrue(question.options.indices.contains(question.answerIndex), "Bad answer for \(question.id)")
